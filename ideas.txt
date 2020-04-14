@@ -1,0 +1,57 @@
+
+
+
+
+
+volatileStats
+  armor
+  initative
+  speed
+  Hp extends volatileStats
+    CurrentHP
+    TemporaryHP
+
+
+spells
+
+basicText
+  personality
+  ideals
+  bonds
+  flaws
+  name
+  background
+  race
+
+basicAttribute
+  strength
+  dexterity
+  constitution
+  intelligence
+  wisdon
+  charisma
+
+skills
+  (bind to bas basicAttribute)
+  acrobatics (dex)
+    basicAttribute(dex)
+    currentvalue //calculates from basic attribute directly
+  animalhandling (wis)
+  arcana (int)
+
+CharTraits
+  basicNumtraits
+    age
+    height
+    weight
+  basicText
+    eyes
+    skin
+    hair
+  details extend basicText
+    Char Appearance
+    Char Backstory
+    Additional traits
+    Allies 
+    Treasure
+  
