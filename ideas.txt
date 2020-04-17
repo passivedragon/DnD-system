@@ -4,15 +4,16 @@
 
 
 volatileStats
+  lvl
   armor
   initative
   speed
   Hp extends volatileStats
     CurrentHP
     TemporaryHP
+  //proficiency 
 
-
-spells
+spells?
 
 basicText
   personality
@@ -22,14 +23,15 @@ basicText
   name
   background
   race
-
-basicAttribute
-  strength
-  dexterity
-  constitution
-  intelligence
-  wisdom
-  charisma
+  
+//semi volitial?
+  basicAttribute
+    strength
+    dexterity
+    constitution
+    intelligence
+    wisdom
+    charisma
 
 skills
   (bind to bas basicAttribute)
@@ -50,7 +52,7 @@ CharTraits
     hair
   details extend basicText
     Char Appearance
-     Char Appearance2
+      //Char Appearance2
     Char Backstory
     Additional traits
     Allies 

@@ -4,7 +4,7 @@ class PictureAttribute {
   }
 
   show(){
-
+    return this.value;
   }
 }
 
@@ -30,7 +30,8 @@ let characterAtributes = {
   'name': BasicTextAttribute, 
   'race': BasicTextAttribute, 
   'description': BasicTextAttribute, 
-  'backstory': BasicTextAttribute
+  'backstory': BasicTextAttribute,
+  'languages': BasicTextAttribute
 };
 
 module.exports = {
