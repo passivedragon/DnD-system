@@ -28,7 +28,7 @@ basicAttribute
   dexterity
   constitution
   intelligence
-  wisdon
+  wisdom
   charisma
 
 skills
@@ -50,6 +50,7 @@ CharTraits
     hair
   details extend basicText
     Char Appearance
+     Char Appearance2
     Char Backstory
     Additional traits
     Allies 

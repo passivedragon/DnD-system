@@ -1,0 +1,5 @@
+
+
+
+
+add system to concat multiple messages to add together in one command, so that "description" could be longer than 2000characters (Discord message limitation)
