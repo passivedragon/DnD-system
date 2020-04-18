@@ -31,7 +31,15 @@ let characterAtributes = {
   'race': BasicTextAttribute, 
   'description': BasicTextAttribute, 
   'backstory': BasicTextAttribute,
-  'languages': BasicTextAttribute
+  'languages': BasicTextAttribute,
+  'stats': {
+    "strength": BasicCharacterStat,
+    "dexterity": BasicCharacterStat,
+    "stupidity": BasicCharacterStat,
+    "endurance": BasicCharacterStat,
+    "agility": BasicCharacterStat,
+    "fatness": BasicCharacterStat
+  }
 };
 
 module.exports = {

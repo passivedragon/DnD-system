@@ -3,3 +3,16 @@ reset stats/full rest
 
 
 add system to concat multiple messages to add together in one command, so that "description" could be longer than 2000characters (Discord message limitation)
+
+
+
+
+level up
+  health
+  hit dice  consts  new max health
+  amount of hit die
+  class spesifics
+    spell slots (not every level)
+    spell casting
+    
+

@@ -1,7 +1,19 @@
+wont change
+  personality traits
+  ideals
+  bonds
+  flaws
+  characater apearence 
+rare changes/maunal changes
+  cover rules
+  status effect
+  amour class
+  
+
+won't change but could sync with player character, over instance
 
 
-
-
+  
 
 volatileStats
   lvl
@@ -11,8 +23,8 @@ volatileStats
   Hp extends volatileStats
     CurrentHP
     TemporaryHP
-  //proficiency 
-
+  proficiency 
+  
 spells?
 
 basicText
@@ -32,6 +44,8 @@ basicText
     intelligence
     wisdom
     charisma
+    equipment
+    amour class
 
 skills
   (bind to bas basicAttribute)
@@ -57,4 +71,6 @@ CharTraits
     Additional traits
     Allies 
     Treasure
+    race 
+    laung
   

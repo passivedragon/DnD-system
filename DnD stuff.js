@@ -9,12 +9,12 @@ const {Campaign, CharacterInstance} = require("./DnD/campaign.js");
 const {Character} = require("./DnD/characters.js");
 
 
-let char = new CharacterInstance({
-  "name":"It's just a character",
-  "description":"Once upon a time, there was a very bad wolf... who ate a fox... and then puked out a sheep... which it then ate again... the end", //wut
-  "non standard info":"non standard value"
-});
-console.log(char.printChracterSheet())
+// let char = new CharacterInstance({
+//   "name":"It's just a character",
+//   "description":"Once upon a time, there was a very bad wolf... who ate a fox... and then puked out a sheep... which it then ate again... the end", //wut
+//   "non standard info":"non standard value"
+// });
+// console.log(char.printChracterSheet())
 
 
 module.exports = {

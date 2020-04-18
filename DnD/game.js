@@ -1,0 +1,5 @@
+
+
+function DiceRoll([{dicenum, dicefaces}]){
+  
+}
