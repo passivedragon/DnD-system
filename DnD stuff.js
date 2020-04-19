@@ -22,6 +22,7 @@ module.exports = {
     {
       "name":"character",
       "description":"Create RP characters for DnD campagins or more! WIP",
+      "adminOnly": true,
       "run": async function run(client, msg, args, command){
         
         switch (args[0]){
